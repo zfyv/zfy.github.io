@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>子非鱼</title>
-</head>
-<body>
-	<header>
-		<h4>子非鱼网站测试</h4>
-	</header>
-</body>
+<html>
+
+  <head>
+    <title>子非鱼个人博客网</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/ico" href="/favicon.ico">
+    <link rel="stylesheet" href="js/zzw.js">
+  </head>
+  
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- 头部 -->
+        <header id="header">
+            <h1><a href="#">子  非  鱼</a></h1>
+            <h4>安知鱼之乐</h4>
+            <p>子非鱼博客网正处于测试阶段......</p>
+            <p>如有任何侵权行为请致信1115416631@qq.com</p>
+            <p>(子非鱼博客网会尽快进行整改)</p>
+            <nav>
+              <ul class="mom">
+                <li>
+                  <a href="pages-4042/pages404.html" title="首页">首 页</a></li>
+                <li>
+                  <a href="https://weibo.com/6330689177/profile?topnav=1&wvr=6&is_all=1" title="微博">微 博</a></li>
+                <li>
+                  <a href="pages-404/pages-404.html" title="历程">历 程</a></li>
+                <li>
+                  <a href="pages-404/pages-404.html" title="留言">留 言 </a></li>
+              </ul>
+            </nav>
+            <br>
+        </header>
+        <!-- 尾部 -->
+        <footer id="footer">
+          <span class="copyright">© 2020
+            <a href="#">子非鱼个人博客网</a>.版权所有
+          </span>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+          document.body.classList.remove('is-preload');
+        }
+        window.ontouchmove = function() {
+          return false;
+        }
+        window.onorientationchange = function() {
+          document.body.scrollTop = 0;
+        }
+    </script>
+    <!--音乐来源https://avvt.cn/-->
+    <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+    <script id="ilt" src="https://avvt.cn/player/js/player.js" key="f4a62b3984cd401bab67d144b2297928"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+  </body>
+
 </html>
+
