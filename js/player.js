@@ -358,7 +358,7 @@ var lzxPlayerInit = function () {
         setTimeout(function () {
             lzxTips.show("播放器下次访问将自动暂停");
         }, 4000);
-        $.cookie("auto_playre", "no");
+        $.cookie("auto_playre", "yes");
     });
     //音乐播放事件
     $('.play', $player).click(function () {
@@ -370,7 +370,7 @@ var lzxPlayerInit = function () {
         setTimeout(function () {
             lzxTips.show("播放器下次访问将自动播放");
         }, 4000);
-        $.cookie("auto_playre", "yes");
+        $.cookie("auto_playre", "no");
     });
     //上一首事件
     $('.prev', $player).click(function () {
